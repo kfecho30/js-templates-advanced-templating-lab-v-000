@@ -29,11 +29,11 @@
     </script>
 
     <script id="recipe-form-template" type="text/x-handlebars-template">
-      <form id="recipe-form" onsubmit='createRecipe();return false''>
+      <form id="recipe-form" onsubmit='createRecipe();return false;'>
         {{> recipeFormPartial}}
       </form>
     </script>
-    
+
     <script id='recipe-form-partial' type="text/x-handlebars-template">
       Name: <input id="name" type="text" value="{{name}}"><br>
       Description: <input id="description" type="text" value="{{description}}"><br>
