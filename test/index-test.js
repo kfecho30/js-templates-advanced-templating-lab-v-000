@@ -13,7 +13,7 @@ describe('Handlebars Templates Lab', function() {
 //      var nameField = document.getElementById("name")
   //    expect(nameField).toExist()
 //    })
-  //})
+})
 
   describe('templates', function() {
     it('has a recipe template', function() {
